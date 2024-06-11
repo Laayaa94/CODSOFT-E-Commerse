@@ -9,6 +9,7 @@ const Hero = () => {
     <div className='hero'>
         <div className="heroLeft">
             <h2>NEW ARRIVALS ONLY</h2>
+          <div>
             <div className="handIcon">
                 <p>new</p>
                 <img src={hand} alt="" />
@@ -16,9 +17,10 @@ const Hero = () => {
             <p>collections</p>
             <p>for everyone</p>
         </div>
-        <div className="heroLatestBtn">
-            <div>Latest Collection</div>
-            <img src={arrowIcon} alt="" />
+            <div className="heroLatestBtn">
+                <div>Latest Collection</div>
+                <img src={arrowIcon} alt="" />
+            </div>
         </div>
         <div className="heroRight">
             <img src={heroImg} alt="" />
