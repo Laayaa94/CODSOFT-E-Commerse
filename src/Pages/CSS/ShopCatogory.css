@@ -1,0 +1,10 @@
+.shop-catogory{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+.shop-catogory img{
+    width: 85%;
+}

@@ -8,7 +8,7 @@ const ShopCatogory = (props) => {
   const{all_product}=useContext(ShopContext);
   return (
     <div className='shop-catogory'>
-      
+      <img src={props.banner} alt="" />
     </div>
   )
 }
