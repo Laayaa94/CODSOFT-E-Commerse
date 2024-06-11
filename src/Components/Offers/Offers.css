@@ -15,12 +15,12 @@
     justify-content: center;
 }
 .offers-left h1{
-    color: #202046;/*171717*/
+    color: #14142c;/*171717*/
     font-size:50px;
     font-weight: 600;
 }
 .offers-left p{
-    color:#202046;
+    color:#14142c;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
