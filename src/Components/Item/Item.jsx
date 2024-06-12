@@ -14,7 +14,7 @@ const Item = (props) => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Item
