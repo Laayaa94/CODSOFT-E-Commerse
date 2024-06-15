@@ -1,9 +1,10 @@
 .hero{
-      height: 92vh;
+      height: 93vh;
 
     /*background:linear-gradient(180deg,#fde1ff,#e1ffea22 60%);*/
       background:linear-gradient(180deg,#c4ebd7,#e1ffea22 60%);
       display: flex;
+      background-color: yellow;
 }
 .heroLeft{
      flex: 1;
