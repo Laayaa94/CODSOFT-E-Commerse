@@ -4,6 +4,7 @@
     justify-content: space-around;
     padding: 12px;
     box-shadow: 0 1px 3px -2px black;
+    align-items: center;
 }
 
 .navLogo {
@@ -87,4 +88,80 @@
 .nav-login-cart a {
     text-decoration: none;
     color: #515151; /* Ensure the link inherits the color */
+}
+.nav-dropdown {
+    width:50px;
+    display:none
+}
+@media(max-width:1280px){
+    .navbar{
+        padding: 12px 50px;
+    }
+    .navMenu{
+        gap: 30px;
+        font-size: 14px;
+    }
+    .nav-login-cart{
+        gap: 30px;
+    }
+    .nav-login-cart button{
+        width: 120px;
+        height: 45px;
+        font-size: 14px;
+    }
+    .nav-login-cart .nav-cart-count {
+        margin-left: -40px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width:1024px){
+    .navbar{
+       padding: 12px 30px; 
+    }
+    .navMenu{
+        gap: 25px;
+        font-size: 14px;
+    }
+    .nav-login-cart button{
+        width: 100px;
+        font-size: 12px;
+    }
+    
+
+}
+@media(max-width:800px){
+    .navbar{
+        padding: 10px 0;
+    }
+    .nav-dropdown {
+       display: block;
+       rotate: -90deg;
+       transition: 0.5s;
+    }
+    .navMenu{
+        display: none;
+        height: 60px;
+        width: 100%;
+        position: absolute;
+        background: white;
+        justify-content: center;
+        top: 60px;
+    }
+    .nav-menu-visible{
+        display: flex;
+    }
+    .nav-dropdown.open{
+        transform: rotate(90deg);
+    }
+}
+@media(max-width:500px){
+    .navbar{
+        padding: 8px 0;
+        gap: 0;
+    }
+    .navMenu{
+        height: 70px;
+        top: 60px;
+    }
 }
