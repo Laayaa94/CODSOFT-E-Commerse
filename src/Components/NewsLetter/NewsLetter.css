@@ -111,10 +111,8 @@
     .newsLetter{
         padding: 0;
         width: 100%;
-        
         gap: 20px;
         height: 25vh;
-        background-color: red;
     }
     .newsLetter h1{
         font-size: 25px;
@@ -123,7 +121,7 @@
         font-size: 18px;
     }
     .newsLetter div{
-        width: 400px;
+        width: 375px;
         height: 45px;
       
     }
