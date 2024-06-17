@@ -1,6 +1,6 @@
 .loginsignup{
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     background: #c4ebd7;
     padding-top: 100px;
 }
@@ -60,4 +60,31 @@
     color: #5c5c5c;
     font-size: 14px;
     font-weight: 500;
+}
+
+@media(max-width:530px){
+    .loginsignup{
+      
+        height:85vh;
+    }
+    .loginsignup-container{
+       width: 300px;
+       padding: 5px;
+       margin: auto;
+    }
+    .loginsignup-container button{
+        width: 300px;
+    }
+    .loginsignup-container input{
+        width: 90%;
+    }
+    .loginsignup-container h1{
+        margin: 0;
+        text-align: center;
+    }
+    .loginsignuop-agree{
+        gap: 0px;
+        margin-top: 0;
+        
+    }
 }
